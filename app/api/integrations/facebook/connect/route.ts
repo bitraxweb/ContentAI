@@ -12,8 +12,6 @@ import {
   requireIntegrationManager,
 } from "@/lib/social/server";
 
-export const dynamic =
-  "force-dynamic";
 
 const META_GRAPH_VERSION =
   "v26.0";
