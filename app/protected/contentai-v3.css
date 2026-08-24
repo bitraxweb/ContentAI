@@ -1,0 +1,76 @@
+.contentai-v3 {
+  --cai-bg: #f4f6fa;
+  --cai-panel: #ffffff;
+  --cai-ink: #172033;
+  --cai-muted: #6b7280;
+  --cai-line: #e5e9f2;
+  --cai-blue: #315efb;
+  --cai-blue-soft: #edf2ff;
+  --cai-mint: #14b8a6;
+  --cai-amber: #f59e0b;
+  --cai-rose: #e11d48;
+  background:
+    radial-gradient(circle at 90% -10%, rgba(49, 94, 251, 0.09), transparent 28rem),
+    var(--cai-bg);
+  color: var(--cai-ink);
+}
+
+.contentai-v3 main {
+  min-height: calc(100vh - 72px);
+}
+
+.contentai-v3 main input,
+.contentai-v3 main select,
+.contentai-v3 main textarea {
+  border-color: #dce2ec;
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(23, 32, 51, 0.03);
+}
+
+.contentai-v3 main input:focus,
+.contentai-v3 main select:focus,
+.contentai-v3 main textarea:focus {
+  border-color: #8ca5ff;
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(49, 94, 251, 0.10);
+}
+
+.contentai-v3 main button,
+.contentai-v3 main a {
+  transition:
+    background-color 160ms ease,
+    border-color 160ms ease,
+    color 160ms ease,
+    transform 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.contentai-v3 main button:active,
+.contentai-v3 main a:active {
+  transform: translateY(1px);
+}
+
+.contentai-v3 ::selection {
+  background: rgba(49, 94, 251, 0.18);
+}
+
+.contentai-v3 * {
+  scrollbar-width: thin;
+  scrollbar-color: #cbd3df transparent;
+}
+
+.contentai-v3 .text-indigo-600 {
+  color: #315efb !important;
+}
+
+.contentai-v3 .bg-indigo-600 {
+  background-color: #315efb !important;
+}
+
+.contentai-v3 .hover\:bg-indigo-700:hover {
+  background-color: #264bd1 !important;
+}
+
+.contentai-v3 .ring-indigo-100 {
+  --tw-ring-color: rgba(49, 94, 251, 0.12) !important;
+}
