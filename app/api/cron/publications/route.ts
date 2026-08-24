@@ -10,8 +10,7 @@ import {
 import { processScheduledBatch } from "@/lib/social/scheduler-runner";
 import { createAdminClient } from "@/lib/supabase/admin";
 
-export const dynamic =
-  "force-dynamic";
+
 
 export const maxDuration =
   300;
