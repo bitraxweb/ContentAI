@@ -13,8 +13,7 @@ import {
   discoverAndStoreLinkedInOrganizations,
 } from "@/lib/social/linkedin-organizations";
 
-export const dynamic =
-  "force-dynamic";
+
 
 type LinkedInTokenResponse = {
   access_token?: string;
